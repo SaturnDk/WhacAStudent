@@ -8,8 +8,8 @@ body {
 }
 
 #board {
-    width: 1080px;
-    height: 1080px;
+    width: 720px;
+    height: 720px;
     background: url(Assets/gulv.png);
     background-size: cover;
     border: 3px solid white;
@@ -22,15 +22,15 @@ body {
 
 #board div {
     /* board = 540x540 = 3x3 tiles = 180x180 pr div */
-    width: 360px;
-    height: 360px;
+    width: 240px;
+    height: 240px;
     background-image: url(Assets/mac1.png);
     background-size: cover;
 }
 
 #board div img {
-    width: 240px;
-    height: 240px;
+    width: 120px;
+    height: 120px;
 
     /* så billederne ikke kan dragges */
     user-select: none;

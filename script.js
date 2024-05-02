@@ -1,7 +1,7 @@
 let currMoleTile;
 let currPlantTile;
 let score = 0;
-let GameOver = false;
+let gameOver = false;
 let moleImages = [
     "Assets/Oli.png",
     "Assets/Benny.png",
@@ -37,7 +37,7 @@ function getRandomTile(){
 
 function setMole() {
 
-    if (GameOver) {
+    if (gameOver) {
         return;
     }
 
@@ -61,7 +61,7 @@ function setMole() {
 
 function setPlant () {
 
-    if (GameOver) {
+    if (gameOver) {
         return;
     }
 
@@ -83,7 +83,7 @@ function setPlant () {
 
 function selectTile () { 
 
-    if (GameOver) {
+    if (gameOver) {
         return;
     }
 
