@@ -7,6 +7,13 @@ body {
 
 }
 
+a {
+    text-decoration: underline;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+
 #board {
     width: 720px;
     height: 720px;
@@ -14,8 +21,9 @@ body {
     background-size: cover;
     border: 3px solid white;
     border-radius: 2rem;
+    box-shadow: 2px 2px 10px black;
 
-    margin: 0 auto;
+    margin: 1rem auto;
     display: flex;
     flex-wrap: wrap;
 }
